@@ -1,11 +1,16 @@
-public class ZadDom4 {
+public class StudentChecker {
     public static void main(String[] args) {
+
+        String uczelnia = Student.nazwaUczelni;
+
         Student polak = new Student();
         polak.imie = "Jacek";
         polak.nazwisko = "Grucha";
         polak.nick = "Grucha";
-        polak.numerIndeksu = 123456;
         polak.email = "jacek.grucha@wp.pl";
+        String uczelniapolaka = polak.nazwaUczelni;
+        System.out.println("Uczelnia polaka to: "+ uczelniapolaka);
+        Student.infoUczelnia();  // wywołanie metody statycznej klasy Student, nazwa metody: infoUczelnia
 
         /*polak.przedstawSie();
         polak.zalogujSie();
@@ -16,7 +21,6 @@ public class ZadDom4 {
         rusek.imie = "Rusek";
         rusek.nazwisko = "Lisek";
         rusek.nick = "Lisek";
-        rusek.numerIndeksu = 123456;
         rusek.email = "lisek.rusek@wp.pl";
 
        /* rusek.przedstawSie();
@@ -28,7 +32,6 @@ public class ZadDom4 {
         kusek.imie = "Kusek";
         kusek.nazwisko = "Kisek";
         kusek.nick = "Kaisek";
-        kusek.numerIndeksu = 123456;
         kusek.email = "kusek.kisek@wp.pl";
 
         /*kusek.przedstawSie();
@@ -41,7 +44,7 @@ public class ZadDom4 {
             students[i].przedstawSie();
             students[i].zalogujSie();
             students[i].podajEmail();
-            students[i].podajNrIndeksu();
+
         }
     }
 }
