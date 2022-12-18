@@ -1,0 +1,18 @@
+package PrzeciazenieMetod;
+
+public class MethodName {
+
+    public void add(int a, int b){
+        System.out.println(a+b);
+    }
+    public void add(int a, int b, int c){
+        System.out.println(a+ b+c);
+    }
+    public void add(int a) {
+        System.out.println(a);
+    }
+    public void add(String a) {
+        System.out.println(a);
+    }
+}
+// przeciążenie klas polega na możliwości tworzenia metod o takiej samej nazwie, ale innymi parametrami/typami wewnątrz
