@@ -11,7 +11,7 @@ public class Person {
         this.age = age;
     }
 
-    public void eat(){
+    public /*final*/ void eat(){
         System.out.println("I like pizza!");
 
     }

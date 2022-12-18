@@ -6,7 +6,7 @@ public class Footballer extends Person{   //extends Person - dziedziczenie po Pe
         super(name, age);
         this.footballClub = footballClub;
     }
-    public void eat(){
+    public void eat(){  // dodanie słowa final
     }
     public void playFootball(){
         eat();
