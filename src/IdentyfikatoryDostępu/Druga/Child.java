@@ -6,15 +6,16 @@ public class Child extends Parent {    //alt + enter - zaimportowanie, jeśli ni
 
     // klasa potomna w innej paczce niż rodzic, nie ma dostępu do pól private oraz default (tak znany identyfikator "package")
 
-    public void testIdentifier(){
+    public void testIdentifier() {
         System.out.println(first);
-        System.out.println(second); // nie mam dostępu do default
+//        System.out.println(second); // nie mam dostępu do default
         System.out.println(third);
-        System.out.println(fourth);  // nie mam dostępu do private
+//        System.out.println(fourth);  // nie mam dostępu do private
 
         firstMethod();
-        secondMethod();
+//        secondMethod();
         thirdMethod();
-        fourthMethod();
+//        fourthMethod();
 
+    }
 }
