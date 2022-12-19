@@ -1,0 +1,7 @@
+package document;
+// klasa bazowa
+public class Document {
+    public void getDescription(){
+        System.out.println("I am document description");
+    }
+}
