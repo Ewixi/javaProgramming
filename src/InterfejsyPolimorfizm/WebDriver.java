@@ -1,3 +1,5 @@
+package InterfejsyPolimorfizm;
+
 public interface WebDriver {
 
     void get();
